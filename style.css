@@ -1,0 +1,98 @@
+/* 
+Theme Name: Hello Elementor Child-Jasmine Rose Site
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team. John has tweaked the file for the needs of Jasmine Rose. 
+Author: Elementor Team + John Mackey
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+
+*/
+#homepage .site-header{
+    margin-left:0 !important;
+    justify-content: flex-start;
+}
+
+ h1.site-title{
+    font-family: 'La Belle Aurore', cursive;
+    z-index: 1000;
+    position:relative;
+    font-size:8rem;
+    width:1000px;
+    top:10vh;
+    text-align:left;
+   color:black;
+    text-shadow: 5px 5px 5px lightgrey;
+
+}
+#homepage, #shop, #contact .site-description{
+    display:none;
+}
+
+h1.site-title a{
+    color:black;
+}
+
+#fp-menu{
+    background-color:#EBD9BF;
+    border-radius: 40px;
+    padding:10px 0px 10px 0px;
+    font-size: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -100px;
+    font-weight: bold;
+}
+
+#fp-menu a{
+    justify-content: center;
+    flex-direction: row;
+    margin:0px 40px 0px 40px;
+    color:black;
+    display: inline-flex;
+}
+
+#fp-menu a:hover{
+    color:indigo;
+}
+
+h1.site-title a:hover{
+    color:indigo;
+}
+
+#stock{
+    height:100vh;
+    align-items: flex-start; 
+    margin-top:-10px;
+    margin-right:-10px;
+    background-image: linear-gradient(90deg, rgba(253,246,242,1) 0%, rgba(255,255,255,0) 100%), url('http://localhost/blog/wp-content/uploads/2021/05/stock-photo-a-young-asian-woman-relaxing-in-the-white-room-115503868.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#homepage{
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+h1{
+    font-size:5rem;
+}
+
+.page .entry-title{
+    display:none;
+}
